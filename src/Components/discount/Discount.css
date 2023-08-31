@@ -1,0 +1,19 @@
+.discount{
+    /* margin-top: 2rem; */
+    /* background:hsl(257, 62%, 90%); */
+   
+}
+.d-container{
+    /* border: 2px solid black; */
+}
+.d-container>.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading>.h-left{
+    display: flex;
+     gap:  1rem; 
+}
+
+
+

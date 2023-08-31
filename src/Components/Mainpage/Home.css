@@ -1,0 +1,96 @@
+/* ......................Home.............. */
+
+.ho-container{
+    display: flex;
+    justify-content: space-between;
+  margin-top: 5px; 
+     gap: 5px; 
+     /* border:2px solid black; */
+    
+   
+}
+
+
+
+/* ........................Categories....................... */
+.categories{
+   box-shadow: rgba(43 52 69 / 20%) 0 .4rem 1.6rem;
+   width: 22%; 
+      height:510px;      
+ /* height:1110px;     */
+ 
+     padding: 1rem 0; 
+    /* height: 100vh; */
+    /* margin-top: 5px; */
+   
+    
+
+}
+.categories>.category{
+    display: flex;
+    gap: 2rem;
+    /* padding: 1rem; */
+      
+     padding: 0.8rem;     
+     /* margin-right: 70px;  */
+}
+
+.categories>.category>img{
+      width: 3rem;  
+     height: 3rem;  
+
+    /* background-color: red; */
+}
+/* ....................slider............ */
+.section{
+   
+     width: 72%     ; 
+    margin: 0 auto;
+}
+ 
+
+
+
+.slide-card{
+   
+        /* width: 87rem;    */
+     height: 90%; 
+   
+    display: flex; 
+   
+   
+     margin-top: 50px;  
+     
+   
+
+    
+ 
+   
+   
+    
+
+   
+  
+}
+
+
+
+.slide-card>.slide-content{
+    /* flex: 1; */
+    width: 70%;
+     /* margin-left: 40px; */
+     margin-top: 60px;
+   
+}
+.slide-card>.slide-content>h1{
+    font-size: 4.5rem;
+    line-height: 55px; 
+}
+.slide-card>.slide-content>p{
+    margin-top: 3.5rem;
+}
+
+.slide-card>.slide-img>{
+   
+    /* width:; */
+}

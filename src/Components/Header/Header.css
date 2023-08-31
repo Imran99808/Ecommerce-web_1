@@ -1,0 +1,213 @@
+/* .............head......................... */
+#head{
+    background-color: #0f3460;
+    padding: 1rem 0;
+    color: #fff;
+}
+.h-container{
+    display: flex;
+    justify-content: space-between; 
+}
+.h-container i{
+    margin-right: 1rem;
+}
+.h-container label{
+    margin-right: 3rem;
+    font-size: 1.3rem;
+}
+
+/* .................Search............................... */
+#search{
+    padding: 2rem 0;
+}
+
+.s-container{
+    display: flex;
+      justify-content: space-between;       
+    align-items: center;
+}
+.s-container>.logo{
+       flex:.9;   
+    width: auto;
+    height: auto;
+      /* width: 20%;        */
+}
+.s-container>.search-box{
+     flex:3;    
+     border: 2px solid rgba(0,0, 0,0.1);   
+    width: 100%;  
+      display: flex;  
+    justify-content: center;
+    align-items: center;
+   
+   
+
+    
+}
+.s-container>.search-box>i{
+   
+     padding:0 1rem;  
+    font-size: 1.7rem;
+    opacity: 0.5;
+}
+.s-container>.search-box>input{
+ flex: 1; 
+ border: none;
+ outline: none;
+    /* width: 70%; */
+    padding: 1rem;
+}
+.s-container>.search-box>span{
+ 
+    opacity: 0.5;
+    border-left: 2px solid rgba(0,0, 0,0.1);
+    padding: 0.7rem;
+    padding-left: 1rem;
+ 
+}
+.s-container>.s-icons{
+      flex:1; 
+     position: relative;
+     display: flex; 
+     /* align-items: center;  */
+     gap: 3rem;
+     justify-content: end;
+     /* border: 2px solid red; */
+}
+
+.s-container>.s-icons>span{
+    position: absolute;
+     top: -1rem; 
+    right: -1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    text-align: center;
+     border-radius: 50%; 
+    background-color:red; 
+    color:#fff;
+    font-size: 1.4rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .............Nav bar.................. */
+.nav-bar{
+    /* border: 2px solid red; */
+    /* position: relative;  */
+    height: 8vh;
+    box-shadow: -1px 15px 17px -8px rgba(0,0, 0,0.1);
+    overflow: hidden;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items>.n-left{
+    display: flex;
+   align-items: center;
+   gap:  1rem;
+   background-color: #f6f9fc;
+    padding: 0 3rem; 
+   border-radius: .5rem;
+   height: 6vh;
+   margin-top: .5rem;
+   
+}
+.nav-items>.n-left>span{
+     font-size: 3rem;
+     margin-top: 1rem;
+     margin-right: 2rem;
+}
+.nav-items>.n-left>h4{
+    font-weight: 500;
+    margin-top: 1.2rem;
+}
+.nav-items>.n-left>h4>i{
+    margin-left: 1rem;
+}
+.nav-items>.n-right{
+    display: flex;
+    gap: 3rem;
+     /* align-items: center;  */
+    line-height:8vh ;
+    cursor: pointer;
+}
+.nav-items>.n-right>li{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgba(0,0, 0,0.8)
+}
+.nav-items>.menu-bar{
+   
+    line-height: 10vh;
+   
+     display: none; 
+}
+.nav-items>.menu-bar>i{
+    
+    font-size: 3rem;
+}
+
+
+
+
+
+/* ............................MEDIA */
+@media(max-width:1000px){
+    html{
+        font-size: 55%;
+      }
+}
+@media(max-width:900px){
+    html{
+        font-size: 50%;
+      }
+}
+@media(max-width:800px){
+    #head{
+        display: none;
+    }
+   
+    .nav-items>.n-right{
+        flex-direction: column;
+        position:fixed; 
+        right: 0;
+       top: 19rem;
+       
+       align-items: center;
+       width: 40vh;
+        
+     
+        box-shadow: -1px -1px 9px 9px rgba(0,0, 0,0.1);
+        transition: all .5s;
+    }
+   
+    .nav-items>.n-right>li{
+        font-size: 2rem;
+        font-weight: bold;
+      
+    }
+    .nav-items>.menu-bar{
+   
+        
+        display: block;
+    }
+    
+    
+}
+@media(max-width:668px){
+    .nav-bar{
+      
+      
+      
+    }
+}

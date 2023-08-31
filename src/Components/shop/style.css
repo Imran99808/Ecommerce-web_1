@@ -1,0 +1,74 @@
+
+.shop .categories{
+
+    padding: 30px;
+     height: 100vh;  
+}
+.scontainer{ 
+    display: flex;
+  
+ } 
+.chead h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.chead :nth-child(2){
+    opacity: 0.5;
+    border-left: 3px solid rgba(0, 0, 0, 0.5);
+    padding-left: 17px;
+
+}
+
+.shop .categories .box{
+    display: flex;
+    gap: 1rem;
+    background-color: #f6f9fc;
+    margin: 15px 0;
+    transition: .5s;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px; 
+}
+
+.shop .categories  img{
+     width: auto; 
+     height: auto; 
+}
+ .shop .categories .box:hover{
+    background-color: #fff;
+    box-shadow: rgb(43,52,69 /10%) 0 4px 16px; 
+
+ }
+ .shop .categories .box2{
+    margin-top: 100px;
+    text-align: center;
+ }
+ .shop .categories  button{
+    padding: 10px;
+    background:#fff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+ }
+ .shop .contentWidth{ 
+     margin-left:30px; 
+   
+     width: 78%;
+    
+  } 
+  .grid1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+  
+  }
+  .shop .product img{
+    width: 100%; 
+  }
+  .shop .product{
+    transition: 0.5s;
+  }
+  .shop .product:hover{
+    box-shadow: rgb(43 52 69 / 10% )0 4px 16px;
+  }
